@@ -7,18 +7,17 @@ React native biometrics is a simple bridge to native iOS and Android keystore ma
 
 | `react-native-biometrics` version | Required React Native Version |
 |:---------------------------------:|:-----------------------------:|
-| `>= 3.0.0`                        | `>= 0.60`                     |
-| `<= 1.7.0`                        | `<= 0.59.x`                   |
+| `>= 1.0.4`                        | `>= 0.60`                     |
 
 ## Getting started
 
 using either Yarn:
 
-`yarn add react-native-biometrics`
+`yarn add @salifu/react-native-biometrics`
 
 or npm:
 
-`$ npm install react-native-biometrics --save`
+`$ npm install @salifu/react-native-biometrics --save`
 
 ### Install pods
 
@@ -57,7 +56,7 @@ A constant for the touch id sensor type, evaluates to `'TouchID'`
 __Example__
 
 ```js
-import ReactNativeBiometrics, { BiometryTypes } from 'react-native-biometrics'
+import ReactNativeBiometrics, { BiometryTypes } from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics()
 
@@ -75,7 +74,7 @@ A constant for the face id sensor type, evaluates to `'FaceID'`
 __Example__
 
 ```js
-import ReactNativeBiometrics, { BiometryTypes } from 'react-native-biometrics'
+import ReactNativeBiometrics, { BiometryTypes } from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics()
 
@@ -93,7 +92,7 @@ A constant for generic Biometrics, evaluates to `'Biometrics'`
 __Example__
 
 ```js
-import ReactNativeBiometrics, { BiometryTypes } from 'react-native-biometrics'
+import ReactNativeBiometrics, { BiometryTypes } from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics()
 
@@ -116,7 +115,7 @@ __Options Object__
 __Example__
 
 ```js
-import ReactNativeBiometrics from 'react-native-biometrics'
+import ReactNativeBiometrics from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics({ allowDeviceCredentials: true })
 
@@ -140,7 +139,7 @@ __Result Object__
 __Example__
 
 ```js
-import ReactNativeBiometrics, { BiometryTypes } from 'react-native-biometrics'
+import ReactNativeBiometrics, { BiometryTypes } from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics()
 
@@ -173,7 +172,7 @@ __Result Object__
 __Example__
 
 ```js
-import ReactNativeBiometrics from 'react-native-biometrics'
+import ReactNativeBiometrics from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics()
 
@@ -198,7 +197,7 @@ __Result Object__
 __Example__
 
 ```js
-import ReactNativeBiometrics from 'react-native-biometrics'
+import ReactNativeBiometrics from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics()
 rnBiometrics.biometricKeysExist()
@@ -226,7 +225,7 @@ __Result Object__
 __Example__
 
 ```js
-import ReactNativeBiometrics from 'react-native-biometrics'
+import ReactNativeBiometrics from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics()
 
@@ -267,7 +266,7 @@ __Result Object__
 __Example__
 
 ```js
-import ReactNativeBiometrics from 'react-native-biometrics'
+import ReactNativeBiometrics from '@salifu/react-native-biometrics'
 
 let epochTimeSeconds = Math.round((new Date()).getTime() / 1000).toString()
 let payload = epochTimeSeconds + 'some message'
@@ -312,7 +311,7 @@ __Result Object__
 __Example__
 
 ```js
-import ReactNativeBiometrics from 'react-native-biometrics'
+import ReactNativeBiometrics from '@salifu/react-native-biometrics'
 
 const rnBiometrics = new ReactNativeBiometrics()
 
